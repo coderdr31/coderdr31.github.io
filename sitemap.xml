@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://coderdr31.github.io/2016/11/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4_hexo%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2016-11-24T13:16:50.215Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://coderdr31.github.io/categories/index.html</loc>
     
     <lastmod>2016-11-24T12:46:15.157Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://coderdr31.github.io/tags/index.html</loc>
     
     <lastmod>2016-11-24T12:45:09.985Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://coderdr31.github.io/2016/11/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4_hexo%E5%85%A5%E9%97%A8/</loc>
-    
-    <lastmod>2016-11-24T12:39:08.056Z</lastmod>
     
   </url>
   
