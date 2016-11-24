@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://coderdr31.github.io/"/>
-  <updated>2016-11-24T13:18:10.959Z</updated>
+  <updated>2016-11-24T13:19:02.115Z</updated>
   <id>https://coderdr31.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://coderdr31.github.io/2016/11/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4_hexo%E5%85%A5%E9%97%A8/"/>
     <id>https://coderdr31.github.io/2016/11/22/hexo常用命令_hexo入门/</id>
     <published>2016-11-22T12:40:19.000Z</published>
-    <updated>2016-11-24T13:18:10.959Z</updated>
+    <updated>2016-11-24T13:19:02.115Z</updated>
     
     <content type="html"><![CDATA[<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm install hexo -g  <span class="comment"># 安装</span></div><div class="line">npm update hexo -g   <span class="comment"># 升级</span></div><div class="line">hexo init            <span class="comment"># 初始化</span></div></pre></td></tr></table></figure>
 <h2 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h2><figure class="highlight zsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">hexo n <span class="string">"我的博客"</span> == hexo new <span class="string">"我的博客"</span>  <span class="comment"># 新建文章</span></div><div class="line">hexo p == hexo publish</div><div class="line">hexo g == hexo generate                   <span class="comment"># 生成</span></div><div class="line">hexo s == hexo server                     <span class="comment"># 启动服务预览</span></div><div class="line">hexo d == hexo deploy                     <span class="comment"># 部署</span></div><div class="line">hexo g <span class="_">-d</span> == hexo generate --deploy       <span class="comment"># 生成后部署</span></div></pre></td></tr></table></figure>
@@ -58,8 +58,7 @@
 <ol>
 <li>主题开启 RSS 支持<br>NexT 主题，默认就可以；其他主题请参考主题说明。</li>
 </ol>
-<h2 id="主目录介绍"><a href="#主目录介绍" class="headerlink" title="主目录介绍"></a>主目录介绍</h2><p><strong>_config.yml</strong>: 全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。这个文件下面会做较为详细的介绍。<br><br><strong>package.json</strong>: hexo框架的参数和所依赖插件<br><br><strong>scaffolds</strong>: scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo new ‘title’）的时候，hexo是根据这个目录下的文件进行构建的。基本不用关心。<br><br><strong>source</strong>: 这个目录很重要，新建的文章都是在保存在这个目录下的.<br><br><strong>_posts</strong>: 需要新建的博文都放在 _posts 目录下。_posts 目录下的md文件，会被编译成html文件，放到 public （此文件现在应该没有，因为你还没有编译过）文件夹下。<br><br><strong>themes</strong>: dairui网站主题目录，hexo有非常好的主题拓展，支持的主题也很丰富。该目录下，每一个子目录就是一个主题 <br></p>
-<p>daidai</p>
+<h2 id="主目录介绍"><a href="#主目录介绍" class="headerlink" title="主目录介绍"></a>主目录介绍</h2><p><strong>_config.yml</strong>: 全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。这个文件下面会做较为详细的介绍。<br><br><strong>package.json</strong>: hexo框架的参数和所依赖插件<br><br><strong>scaffolds</strong>: scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo new ‘title’）的时候，hexo是根据这个目录下的文件进行构建的。基本不用关心。<br><br><strong>source</strong>: 这个目录很重要，新建的文章都是在保存在这个目录下的.<br><br><strong>_posts</strong>: 需要新建的博文都放在 _posts 目录下。_posts 目录下的md文件，会被编译成html文件，放到 public （此文件现在应该没有，因为你还没有编译过）文件夹下。<br><br><strong>themes</strong>: 网站主题目录，hexo有非常好的主题拓展，支持的主题也很丰富。该目录下，每一个子目录就是一个主题 <br></p>
 ]]></content>
     
     <summary type="html">
