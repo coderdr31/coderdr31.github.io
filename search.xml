@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[鸟哥私房菜笔记一]]></title>
+      <url>%2F2017%2F02%2F15%2F%E9%B8%9F%E5%93%A5%E7%A7%81%E6%88%BF%E8%8F%9C%E7%AC%94%E8%AE%B0%E4%B8%80%2F</url>
+      <content type="text"><![CDATA[鸟哥私房菜笔记一第零章、计算机概论CPUCPU实际要处理的数据则完全来自於主内存！ cpu的种类 精简指令集RISC: 常见的RISC微指令集CPU主要例如升阳(Sun)公司的SPARC系列、 IBM公司的Power Architecture(包括PowerPC)系列、与ARM系列等。你常使用的各厂牌手机、PDA、导航系统、网络设备(交换器、路由器等)等，几乎都是使用ARM架构的CPU喔 复杂指令集CISC: 常见的CISC微指令集CPU主要有AMD、Intel、VIA等的x86架构的CPU。由於AMD、Intel、VIA所开发出来的x86架构CPU被大量使用於个人计算机(Personal computer)用途上面， 因此，个人计算机常被称为x86架构的计算机！]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[hexo常用命令&hexo入门]]></title>
       <url>%2F2016%2F11%2F22%2Fhexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4_hexo%E5%85%A5%E9%97%A8%2F</url>
       <content type="text"><![CDATA[hexo常用命令hexo123npm install hexo -g # 安装npm update hexo -g # 升级hexo init # 初始化 简写123456hexo n "我的博客" == hexo new "我的博客" # 新建文章hexo p == hexo publishhexo g == hexo generate # 生成hexo s == hexo server # 启动服务预览hexo d == hexo deploy # 部署hexo g -d == hexo generate --deploy # 生成后部署 draft草稿12$ hexo new [layout] &lt;title&gt; #layout: post(default)、page、draft$ hexo publish [layout] &lt;title&gt; #move draft to post(layout:post) categories、tagsmd文件头部加1234多标签tags: [标签1,标签2,标签3]多级目录categories: [一级目录,二级目录] 默认路径名和分类名一样，若要分别设置，如下： 打开根目录下的配置文件_config.yml，找到如下位置做更改：1234567# Category &amp; Tagdefault_category: uncategorizedcategory_map: 编程: programming 生活: life 其他: othertag_map: 在这里category_map:是设置分类的地方，每行一个分类，冒号前面是分类名称，后面是访问路径。 可以提前在这里设置好一些分类，当编辑的文章填写了对应的分类名时，就会自动的按照对应的路径来访问。 其他 hexo clean #清除缓存文件 (db.json) 和已生成的静态文件 (public) hexo 入门hexo、next 插件、第三方服务主要是hexo、next官网的第三方服务 添加Sitemap我没配完，全步骤点此链接 安装 1$ npm install hexo-generator-sitemap --save 修改站点配置文件 12345plugins: hexo-generator-feed hexo-generator-sitemapsitemap: path: sitemap.xml 如果执行hexo g命令无法生成sitemap.xml文件，执行以下命令： 12$ npm uninstall hexo-generator-sitemap #观察发现博客根目录下的package.json文件中dependencies并没有sitemap插件的依赖，卸载$ npm install hexo-generator-sitemap --save #安装sitemap插件时，加上- -save参数 添加RSS 安装RSS插件 npm install hexo-generator-feed –save 开启网站 RSS 支持 编辑网站根目录下的 _config.yml，添加123456789# RSS订阅支持plugin:- hexo-generator-feed# Feed Atomfeed:type: atompath: atom.xmllimit: 20 主题开启 RSS 支持NexT 主题，默认就可以；其他主题请参考主题说明。 主目录介绍_config.yml: 全局配置文件，网站的很多信息都在这里配置，诸如网站名称，副标题，描述，作者，语言，主题，部署等等参数。这个文件下面会做较为详细的介绍。package.json: hexo框架的参数和所依赖插件scaffolds: scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo new ‘title’）的时候，hexo是根据这个目录下的文件进行构建的。基本不用关心。source: 这个目录很重要，新建的文章都是在保存在这个目录下的._posts: 需要新建的博文都放在 _posts 目录下。_posts 目录下的md文件，会被编译成html文件，放到 public （此文件现在应该没有，因为你还没有编译过）文件夹下。themes: 网站主题目录，hexo有非常好的主题拓展，支持的主题也很丰富。该目录下，每一个子目录就是一个主题]]></content>
